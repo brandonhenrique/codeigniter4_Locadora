@@ -1,0 +1,18 @@
+CRITICAL - 2021-09-27 17:21:55 --> Invalid file: automovel.php
+#0 D:\xampp\htdocs\locadora\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('automovel.php')
+#1 D:\xampp\htdocs\locadora\system\Common.php(1092): CodeIgniter\View\View->render('automovel', Array, true)
+#2 D:\xampp\htdocs\locadora\app\Controllers\Automovel.php(17): view('automovel', Array)
+#3 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->index()
+#4 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#5 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-09-27 17:22:18 --> Invalid file: Automovel.php
+#0 D:\xampp\htdocs\locadora\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Automovel.php')
+#1 D:\xampp\htdocs\locadora\system\Common.php(1092): CodeIgniter\View\View->render('Automovel', Array, true)
+#2 D:\xampp\htdocs\locadora\app\Controllers\Automovel.php(17): view('Automovel', Array)
+#3 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->index()
+#4 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#5 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

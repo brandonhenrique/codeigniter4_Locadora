@@ -1,0 +1,324 @@
+ERROR - 2021-10-01 18:03:12 --> Cannot add or update a child row: a foreign key constraint fails (`bd_locadora`.`tb_automovel`, CONSTRAINT `pk_marca_fk_automovel` FOREIGN KEY (`TB_MARCA_ID`) REFERENCES `tb_marca` (`TB_MARCA_ID`))
+CRITICAL - 2021-10-01 18:03:12 --> Cannot add or update a child row: a foreign key constraint fails (`bd_locadora`.`tb_automovel`, CONSTRAINT `pk_marca_fk_automovel` FOREIGN KEY (`TB_MARCA_ID`) REFERENCES `tb_marca` (`TB_MARCA_ID`))
+#0 D:\xampp\htdocs\locadora\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `tb...')
+#1 D:\xampp\htdocs\locadora\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\locadora\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\locadora\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\locadora\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\locadora\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\locadora\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\locadora\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\locadora\app\Controllers\Automovel.php(62): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->cadastrar_carro()
+#10 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#11 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-10-01 18:18:56 --> Cannot add or update a child row: a foreign key constraint fails (`bd_locadora`.`tb_automovel`, CONSTRAINT `pk_marca_fk_automovel` FOREIGN KEY (`TB_MARCA_ID`) REFERENCES `tb_marca` (`TB_MARCA_ID`))
+CRITICAL - 2021-10-01 18:18:56 --> Cannot add or update a child row: a foreign key constraint fails (`bd_locadora`.`tb_automovel`, CONSTRAINT `pk_marca_fk_automovel` FOREIGN KEY (`TB_MARCA_ID`) REFERENCES `tb_marca` (`TB_MARCA_ID`))
+#0 D:\xampp\htdocs\locadora\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `tb...')
+#1 D:\xampp\htdocs\locadora\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\locadora\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\locadora\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\locadora\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\locadora\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\locadora\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\locadora\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\locadora\app\Controllers\Automovel.php(62): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->cadastrar_carro()
+#10 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#11 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-10-01 18:45:28 --> Cannot add or update a child row: a foreign key constraint fails (`bd_locadora`.`tb_automovel`, CONSTRAINT `pk_marca_fk_automovel` FOREIGN KEY (`TB_MARCA_ID`) REFERENCES `tb_marca` (`TB_MARCA_ID`))
+CRITICAL - 2021-10-01 18:45:28 --> Cannot add or update a child row: a foreign key constraint fails (`bd_locadora`.`tb_automovel`, CONSTRAINT `pk_marca_fk_automovel` FOREIGN KEY (`TB_MARCA_ID`) REFERENCES `tb_marca` (`TB_MARCA_ID`))
+#0 D:\xampp\htdocs\locadora\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `tb...')
+#1 D:\xampp\htdocs\locadora\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\xampp\htdocs\locadora\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\xampp\htdocs\locadora\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\xampp\htdocs\locadora\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\locadora\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\locadora\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp\htdocs\locadora\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp\htdocs\locadora\app\Controllers\Automovel.php(62): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->cadastrar_carro()
+#10 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#11 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-10-01 20:01:29 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:02:49 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:02:51 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:02:51 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:02:51 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:02:51 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:02:51 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:03:16 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:06:19 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:06:20 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:06:20 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:06:20 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:06:20 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:06:20 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:06:32 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:06:32 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:06:32 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:06:37 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:06:40 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:08:30 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:08:30 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:08:30 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:08:32 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:08:32 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:08:57 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:08:57 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:08:57 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:09:01 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:09:12 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:09:15 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:09:15 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:09:15 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:09:50 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:09:50 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:09:50 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:14:29 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:14:29 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:14:29 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:14:29 --> Too few arguments to function App\Controllers\Automovel::edita_automovel(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->edita_automovel()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:15:22 --> Too few arguments to function App\Controllers\Automovel::alterar(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->alterar()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:15:23 --> Too few arguments to function App\Controllers\Automovel::alterar(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->alterar()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:15:23 --> Too few arguments to function App\Controllers\Automovel::alterar(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->alterar()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:15:24 --> Too few arguments to function App\Controllers\Automovel::alterar(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->alterar()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:15:24 --> Too few arguments to function App\Controllers\Automovel::alterar(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->alterar()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:15:24 --> Too few arguments to function App\Controllers\Automovel::alterar(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->alterar()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-01 20:15:24 --> Too few arguments to function App\Controllers\Automovel::alterar(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Automovel->alterar()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Automovel))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

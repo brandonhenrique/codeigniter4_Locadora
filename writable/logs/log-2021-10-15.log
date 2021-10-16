@@ -1,0 +1,33 @@
+CRITICAL - 2021-10-15 19:57:18 --> Too few arguments to function App\Controllers\Modelo::editar_Modelo(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Modelo->editar_Modelo()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-15 19:58:43 --> Too few arguments to function App\Controllers\Modelo::editar_Modelo(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Modelo->editar_Modelo()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-15 19:59:07 --> Too few arguments to function App\Controllers\Modelo::editar_Modelo(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Modelo->editar_Modelo()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-15 19:59:20 --> Too few arguments to function App\Controllers\Modelo::editar_Modelo(), 0 passed in D:\xampp\htdocs\locadora\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Modelo->editar_Modelo()
+#1 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#2 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-10-15 20:00:19 --> Invalid file: cadastrarModeloView.php
+#0 D:\xampp\htdocs\locadora\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cadastrarModelo...')
+#1 D:\xampp\htdocs\locadora\system\Common.php(1092): CodeIgniter\View\View->render('cadastrarModelo...', Array, true)
+#2 D:\xampp\htdocs\locadora\app\Controllers\Modelo.php(19): view('cadastrarModelo...')
+#3 D:\xampp\htdocs\locadora\system\CodeIgniter.php(802): App\Controllers\Modelo->inserir()
+#4 D:\xampp\htdocs\locadora\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modelo))
+#5 D:\xampp\htdocs\locadora\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\locadora\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
